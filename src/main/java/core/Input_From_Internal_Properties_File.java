@@ -11,8 +11,7 @@ public class Input_From_Internal_Properties_File {
 		
 		p.load(ClassLoader.getSystemResourceAsStream("input.properties"));
 		
-	
-	
+		
 		String first_name = p.getProperty("f_name");
 		String last_name = p.getProperty("l_name");
 		
